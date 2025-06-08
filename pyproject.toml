@@ -1,0 +1,27 @@
+[project]
+name = "mcp-agent"
+version = "0.1.0"
+description = "Playing around with MCP agents"
+authors = [
+    { name = "fred", email = "fred@fred.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.13"
+dependencies = [
+    "mcp",
+    "mcp-server"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+    "pre-commit",
+    "isort"
+]
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
