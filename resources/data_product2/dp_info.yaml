@@ -1,0 +1,14 @@
+data_product_name: "data_product2"
+data_product_description: "Advanced analytics data product for business insights"
+data_product_owner: "sarah"
+data_product_owner_email: "sarah@company.com"
+access_control:
+  - sarah
+  - mike
+  - lisa
+  - david
+  - emma
+  - alex
+  - rachel
+  - chris
+  - olivia

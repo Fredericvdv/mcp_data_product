@@ -1,0 +1,14 @@
+data_product_name: "data_product1"
+data_product_description: "This is a demo data product"
+data_product_owner: "fred"
+data_product_owner_email: "fred@fred.com"
+access_control:
+  - fred
+  - jane
+  - john
+  - mary
+  - tom
+  - jerry
+  - harry
+  - ron
+  - hermione
